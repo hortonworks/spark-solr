@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.lucidworks.spark</groupId>
   <artifactId>spark-solr</artifactId>
@@ -37,10 +37,10 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <java.version>1.8</java.version>
-    <spark-solr.version>3.9.0.7.2.1.0-SNAPSHOT</spark-solr.version>
-    <spark.version>2.4.0.7.2.1.0-SNAPSHOT</spark.version>
-    <solr.version>8.4.1.7.2.1.0-SNAPSHOT</solr.version>
-    <hadoop.version>3.1.1.7.2.1.0-SNAPSHOT</hadoop.version>
+    <spark-solr.version>3.9.0.7.2.2.0-SNAPSHOT</spark-solr.version>
+    <spark.version>2.4.5.7.2.2.0-SNAPSHOT</spark.version>
+    <solr.version>8.4.1.7.2.2.0-SNAPSHOT</solr.version>
+    <hadoop.version>3.1.1.7.2.2.0-SNAPSHOT</hadoop.version>
     <fasterxml.version>2.10.3</fasterxml.version>
     <scala.version>2.11.12</scala.version>
     <scala.binary.version>2.11</scala.binary.version>
@@ -315,7 +315,7 @@
         <artifactId>scalatest-maven-plugin</artifactId>
         <version>1.0</version>
         <configuration>
-          <stderr/>
+          <stderr />
           <!-- Log to stderr -->
           <junitxml>.</junitxml>
           <!-- Directory/ies for JUnit XML -->
