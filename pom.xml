@@ -37,10 +37,10 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <java.version>1.8</java.version>
-    <spark-solr.version>3.9.0.7.0.2.1-SNAPSHOT</spark-solr.version>
-    <spark.version>2.4.5.7.0.2.1-SNAPSHOT</spark.version>
-    <solr.version>8.4.1.7.0.2.1-SNAPSHOT</solr.version>
-    <hadoop.version>3.1.1.7.0.2.1-SNAPSHOT</hadoop.version>
+    <spark-solr.version>3.9.0.7.2.8.0-SNAPSHOT</spark-solr.version>
+    <spark.version>2.4.5.7.2.8.0-SNAPSHOT</spark.version>
+    <solr.version>8.4.1.7.2.8.0-SNAPSHOT</solr.version>
+    <hadoop.version>3.1.1.7.2.8.0-SNAPSHOT</hadoop.version>
     <fasterxml.version>2.10.3</fasterxml.version>
     <scala.version>2.11.12</scala.version>
     <scala.binary.version>2.11</scala.binary.version>
