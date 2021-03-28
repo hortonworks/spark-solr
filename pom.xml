@@ -37,10 +37,10 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <java.version>1.8</java.version>
-    <spark-solr.version>3.9.0.7.2.10.0-SNAPSHOT</spark-solr.version>
-    <spark.version>2.4.7.7.2.10.0-SNAPSHOT</spark.version>
-    <solr.version>8.4.1.7.2.10.0-SNAPSHOT</solr.version>
-    <hadoop.version>3.1.1.7.2.10.0-SNAPSHOT</hadoop.version>
+    <spark-solr.version>3.9.0.7.2.9.0-SNAPSHOT</spark-solr.version>
+    <spark.version>2.4.7.7.2.9.0-SNAPSHOT</spark.version>
+    <solr.version>8.4.1.7.2.9.0-SNAPSHOT</solr.version>
+    <hadoop.version>3.1.1.7.2.9.0-SNAPSHOT</hadoop.version>
     <fasterxml.version>2.10.3</fasterxml.version>
     <scala.version>2.11.12</scala.version>
     <scala.binary.version>2.11</scala.binary.version>
@@ -58,7 +58,7 @@
     <junit.version>4.12</junit.version>
     <!-- dependency manager dependencies -->
     <netty3.version>3.10.6.Final</netty3.version>
-    <netty4.version>4.1.60.Final</netty4.version>
+    <netty4.version>4.1.51.Final</netty4.version>
     <commons-logging.version>1.2</commons-logging.version>
     <commons-beanutils.version>1.9.4</commons-beanutils.version>
     <commons-pool.version>1.6</commons-pool.version>
