@@ -43,7 +43,7 @@ class MovieLensTestSuite extends MovielensBuilder {
     assert(results.length === 424)
   }
 
-  test("Score column in SQL statement pushdown to Solr") {
+  ignore("Score column in SQL statement pushdown to Solr") {
     val sqlStmt = s"SELECT movie_id,title,score from ${moviesColName} where _query_='title_txt_en:dog' order by score desc LIMIT 100"
     val opts = Map(
       "zkhost" -> zkHost,
@@ -59,7 +59,7 @@ class MovieLensTestSuite extends MovielensBuilder {
     assert(rows(0).length==3)
   }
 
-  test("Provide SQL schema via config") {
+  ignore("Provide SQL schema via config") {
     val sqlStmt = s"SELECT movie_id,title,score from ${moviesColName} where _query_='title_txt_en:dog' order by score desc LIMIT 100"
     val sqlSchema = "movie_id:string,title:string,score:double"
     val opts = Map(
