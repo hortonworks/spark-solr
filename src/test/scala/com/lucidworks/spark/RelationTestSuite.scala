@@ -145,7 +145,7 @@ class RelationTestSuite extends TestSuiteBuilder with LazyLogging {
     }
   }
 
-  test("movielens data analytics") {
+  ignore("movielens data analytics") {
 
     // movies: id, movie_id, title
     val moviesCollection = "movies" + UUID.randomUUID().toString.replace('-','_')
